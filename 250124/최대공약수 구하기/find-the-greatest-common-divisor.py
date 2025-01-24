@@ -4,7 +4,6 @@ n, m = map(int, input().split())
 def gcd(n, m):
     for i in range(min(n, m), 0, -1):
         if n % i == 0 and m % i == 0:
-            print(i)
-            break
+            return i
 
-gcd(n, m)
+print(gcd(n, m))
