@@ -12,6 +12,7 @@ def test(a,b):
             for i in s:
                 if (i=='3') or (i=='6') or (i=='9'):
                     cnt += 1
+                    break
     return cnt
 
 print(test(a,b))
