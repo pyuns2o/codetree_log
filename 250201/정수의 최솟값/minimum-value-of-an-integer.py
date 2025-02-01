@@ -3,9 +3,7 @@ a, b, c = map(int, input().split())
 # Write your code here!
 
 def mini(a,b,c):
-    temp = [a,b,c]
-    mini = min(temp)
-    return mini
+    return min(a,b,c)
 
 print(mini(a,b,c))
     
