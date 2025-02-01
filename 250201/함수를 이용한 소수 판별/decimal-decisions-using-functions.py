@@ -4,6 +4,9 @@ a, b = map(int, input().split())
 
 # 소수 판별 함수 True/ False
 def sosu(n):
+    if n == 1:
+        return False
+    else:
         for i in range(2, n):
             if n % i == 0:
                 return False
