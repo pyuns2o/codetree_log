@@ -7,6 +7,5 @@ def add(n):
     for i in range(1, n+1):
         num += i
     return num // 10
-
-result = add(n)
-print(result)
+    
+print(add(n))
